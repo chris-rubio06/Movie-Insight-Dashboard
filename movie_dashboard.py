@@ -47,7 +47,7 @@ def save_filtered_data(filtered_df):
     print(f"Filtered data saved to {filename}")
 
 def main():
-    df = load_data("movies.csv")
+    df = load_data("movies_.csv")
     if df.empty:
         return
 
